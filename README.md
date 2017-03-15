@@ -7,7 +7,7 @@ Introduction
 Demonstration
 --
 单张图片的效果
-![](https://github.com/Arthurshen98/RolloutAnimView/gif/rollout_1.gif) 
+![](https://github.com/Arthurshen98/RolloutAnimView/blob/master/gif/rollout_1.gif) 
 
 ListView显示图片的效果
 

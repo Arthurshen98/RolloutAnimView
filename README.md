@@ -24,7 +24,7 @@ simple里面有实现的方式，传递数据到指定的Activity即可。可分
 
 没有gradle引用方式，你可以把library下载下来自己去更改代码，更改自己喜欢的风格。
 
-library里面还用这几个库，站在了牛人的肩膀上。
+library里面已经引用了这几个库，无需再次添加。  
 
  * compile 'com.android.support:appcompat-v7:25.1.1' //可以换成v4或降低版本
  

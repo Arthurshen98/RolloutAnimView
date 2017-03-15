@@ -6,3 +6,6 @@ Introduction
 
 Demonstration
 --
+单张图片的效果
+
+![](https://github.com/Arthurshen98/RolloutAnimView/simple/rollout_1.gif) 

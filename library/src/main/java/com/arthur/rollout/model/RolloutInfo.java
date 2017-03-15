@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * Created by arthur on 2017/3/13.
- * 抽象可以继承它改变属性
+ * 可以继承它改变属性
  */
 
 public class RolloutInfo implements Serializable {

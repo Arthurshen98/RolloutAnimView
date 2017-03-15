@@ -112,7 +112,7 @@ public class RolloutBaseActivity extends Activity {
         //关于imageView想要有多宽
         img_w = bdInfo.width;
         img_h = bdInfo.height;
-
+        //动画变化值
         size = Width / img_w;
         y_img_h = imageInfo.height * Width / imageInfo.width;
         size_h = y_img_h / img_h;

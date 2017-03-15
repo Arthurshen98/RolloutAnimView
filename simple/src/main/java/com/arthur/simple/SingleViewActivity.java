@@ -59,8 +59,10 @@ public class SingleViewActivity extends RolloutBaseActivity implements View.OnCl
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.show_img:
+                //获取相对位置，左边和顶部
                 bdInfo.x = show_img.getLeft();
                 bdInfo.y = show_img.getTop();
+                //视图布局的宽高
                 bdInfo.width = show_img.getLayoutParams().width;
                 bdInfo.height = show_img.getLayoutParams().height;
                 //跳转和传数据都必须要

@@ -95,12 +95,13 @@ public class RGridViewAdapter extends BaseAdapter {
             int firstVisiblePosition = mGridView.getFirstVisiblePosition() / 3;
 
             int a, b;
+            //模拟行列划分3等分进行计算
             a = index / 3;
             b = index % 3;
 
             bdInfo.width = (RCommonUtil.getScreenWidth(context) - 3 * RCommonUtil.dip2px(context, 2)) / 3;
             bdInfo.height = bdInfo.width;
-
+            //把屏幕划分成了行和列，采用行列估算方法，进行计算位置
             bdInfo.x = RCommonUtil.dip2px(context, 1) + b * bdInfo.width + b * RCommonUtil.dip2px(context, 2);
             bdInfo.y = RCommonUtil.dip2px(context, 1) + bdInfo.height * (a - firstVisiblePosition) + top + (a - firstVisiblePosition) * RCommonUtil.dip2px(context, 2) + mGridView.getTop() - RCommonUtil.dip2px(context, 1);
 

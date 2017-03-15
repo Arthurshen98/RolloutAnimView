@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * Created by arthur on 2017/3/13.
- * 抽象可以继承它
+ * 可以继承它
  */
 
 public class RolloutBDInfo implements Serializable {

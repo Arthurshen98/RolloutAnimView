@@ -67,15 +67,20 @@ public class RolloutPreviewActivity extends RolloutBaseActivity implements ViewP
     @Override
     public void InData() {
         super.InData();
+
         index = getIntent().getIntExtra("index", 0);
         type = getIntent().getIntExtra("type", 0);
         ImgList = (ArrayList<RolloutInfo>) getIntent().getSerializableExtra("data");
+
         Log.e("1", ImgList.size() + "数量");
+
         imageInfo = ImgList.get(index);
         bdInfo = (RolloutBDInfo) getIntent().getSerializableExtra("bdinfo");
+
         pagerAdapter = new SamplePagerAdapter();
         viewpager.setAdapter(pagerAdapter);
         viewpager.setCurrentItem(index);
+
         if (type == 1) {
             moveheight = RCommonUtil.dip2px(this, 70);
         } else if (type == 2) {
@@ -109,7 +114,7 @@ public class RolloutPreviewActivity extends RolloutBaseActivity implements ViewP
             selectIndex = arg0;
             int move_index = arg0 - index;
             to_y = move_index * moveheight;
-        } else if (type == 2) {//gridview
+        } else if (type == 2) {//gridview，计算图片原始的位置，某行某列
             selectIndex = arg0;
             int a = index / 3;
             int b = index % 3;

@@ -8,7 +8,7 @@ Demonstration
 --
 单张图片的效果
 
-![](http://github.com/Arthurshen98/RolloutAnimView/raw/master/rollout_1.gif) 
+![](http://github.com/Arthurshen98/RolloutAnimView/gif/rollout_1.gif) 
 
 ListView显示图片的效果
 

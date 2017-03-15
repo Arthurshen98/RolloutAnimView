@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_custom_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arthur.simple.costom.CustomListViewActivity">
+    <ListView
+        android:id="@+id/custom_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:dividerHeight="1dp"
+        android:divider="#eaeaea"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        />
+</RelativeLayout>

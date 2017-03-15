@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple</string>
+    <string name="single">单张图片</string>
+    <string name="listview">ListView</string>
+    <string name="gridview">GridView</string>
+    <string name="custom_listview">自定义listView的形式</string>
+</resources>

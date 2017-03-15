@@ -8,12 +8,12 @@ Demonstration
 --
 单张图片的效果
 
-![csdn](http://img.blog.csdn.net/20170315133809030) 
+![](http://github.com/Arthurshen98/RolloutAnimView/rollout_1.gif) 
 
 ListView显示图片的效果
 
-![csdn](http://img.blog.csdn.net/20170315142457329) 
+![](http://img.blog.csdn.net/20170315142457329) 
 
 GridView显示图片的效果
 
-![csdn](http://img.blog.csdn.net/20170315143330453) 
+![](http://img.blog.csdn.net/20170315143330453) 

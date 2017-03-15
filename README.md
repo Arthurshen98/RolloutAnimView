@@ -8,12 +8,12 @@ Demonstration
 --
 单张图片的效果
 
-![](http://img.blog.csdn.net/20170315133809030) 
+![csdn](http://img.blog.csdn.net/20170315133809030) 
 
 ListView显示图片的效果
 
-![](http://img.blog.csdn.net/20170315142457329) 
+![csdn](http://img.blog.csdn.net/20170315142457329) 
 
 GridView显示图片的效果
 
-![](http://img.blog.csdn.net/20170315143330453) 
+![csdn](http://img.blog.csdn.net/20170315143330453) 

@@ -18,7 +18,7 @@
         <activity android:name=".SingleViewActivity" />
         <activity android:name=".ListViewActivity" />
         <activity android:name=".GridViewActivity" />
-        <activity android:name=".costom.CustomListViewActivity"></activity>
+        <activity android:name=".custom.CustomListViewActivity"></activity>
     </application>
 
 </manifest>

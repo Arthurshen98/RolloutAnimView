@@ -1,12 +1,9 @@
-package com.arthur.simple.costom;
+package com.arthur.simple.custom;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
 import com.arthur.rollout.activity.RolloutBaseActivity;
-import com.arthur.rollout.adapter.RListViewAdapter;
-import com.arthur.rollout.model.RolloutInfo;
 import com.arthur.simple.R;
 
 import java.util.ArrayList;

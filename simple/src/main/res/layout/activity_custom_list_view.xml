@@ -4,7 +4,7 @@
     android:id="@+id/activity_custom_list_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.arthur.simple.costom.CustomListViewActivity">
+    tools:context="com.arthur.simple.custom.CustomListViewActivity">
     <ListView
         android:id="@+id/custom_list"
         android:layout_width="fill_parent"

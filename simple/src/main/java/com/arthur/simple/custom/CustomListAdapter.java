@@ -1,4 +1,4 @@
-package com.arthur.simple.costom;
+package com.arthur.simple.custom;
 
 import android.content.Context;
 import android.content.Intent;

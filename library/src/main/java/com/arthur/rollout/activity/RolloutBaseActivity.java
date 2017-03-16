@@ -107,7 +107,7 @@ public class RolloutBaseActivity extends Activity {
     protected void getValue() {
         showimg = new ImageView(this);
         showimg.setScaleType(ImageView.ScaleType.CENTER_CROP);
-
+        
         RGlideUtil.setImage(this, imageInfo.url, showimg);
         //关于imageView想要有多宽
         img_w = bdInfo.width;
@@ -187,8 +187,10 @@ public class RolloutBaseActivity extends Activity {
      * 图片展示前动画
      */
     private void MoveView() {
+        //属性动画
         ObjectAnimator.ofFloat(MainView, "alpha", 0.8f).setDuration(0).start();
         MainView.setVisibility(View.VISIBLE);
+        //属性动画集合
         AnimatorSet set = new AnimatorSet();
         set.playTogether(
                 ObjectAnimator.ofFloat(showimg, "translationX", tx).setDuration(200),
